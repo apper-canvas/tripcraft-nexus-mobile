@@ -1,0 +1,272 @@
+[
+  {
+    "id": "act1",
+    "tripId": "1",
+    "name": "Flight to Paris",
+    "type": "flight",
+    "date": "2024-06-15",
+    "startTime": "08:00",
+    "duration": 480,
+    "location": {
+      "name": "Charles de Gaulle Airport",
+      "address": "95700 Roissy-en-France, France",
+      "coordinates": { "lat": 49.0097, "lng": 2.5479 }
+    },
+    "cost": 450,
+    "notes": "Air France Flight AF123. Check-in opens 3 hours before departure.",
+    "bookingReference": "AF123456",
+    "status": "confirmed"
+  },
+  {
+    "id": "act2",
+    "tripId": "1",
+    "name": "Check-in at Hotel Le Marais",
+    "type": "hotel",
+    "date": "2024-06-15",
+    "startTime": "15:00",
+    "duration": 30,
+    "location": {
+      "name": "Hotel Le Marais",
+      "address": "12 Rue des Archives, 75004 Paris, France",
+      "coordinates": { "lat": 48.8566, "lng": 2.3522 }
+    },
+    "cost": 120,
+    "notes": "Boutique hotel in historic Marais district. Late check-in available.",
+    "bookingReference": "HLM789012",
+    "status": "confirmed"
+  },
+  {
+    "id": "act3",
+    "tripId": "1",
+    "name": "Visit Louvre Museum",
+    "type": "attraction",
+    "date": "2024-06-16",
+    "startTime": "10:00",
+    "duration": 180,
+    "location": {
+      "name": "Louvre Museum",
+      "address": "Rue de Rivoli, 75001 Paris, France",
+      "coordinates": { "lat": 48.8606, "lng": 2.3376 }
+    },
+    "cost": 17,
+    "notes": "Skip-the-line tickets booked. Don't miss the Mona Lisa and Venus de Milo.",
+    "bookingReference": "LV345678",
+    "status": "confirmed"
+  },
+  {
+    "id": "act4",
+    "tripId": "1",
+    "name": "Lunch at Café de Flore",
+    "type": "restaurant",
+    "date": "2024-06-16",
+    "startTime": "13:30",
+    "duration": 90,
+    "location": {
+      "name": "Café de Flore",
+      "address": "172 Boulevard Saint-Germain, 75006 Paris, France",
+      "coordinates": { "lat": 48.8542, "lng": 2.3320 }
+    },
+    "cost": 45,
+    "notes": "Historic café frequented by Picasso and Hemingway. Try the onion soup.",
+    "bookingReference": "",
+    "status": "planned"
+  },
+  {
+    "id": "act5",
+    "tripId": "1",
+    "name": "Seine River Cruise",
+    "type": "activity",
+    "date": "2024-06-16",
+    "startTime": "19:00",
+    "duration": 60,
+    "location": {
+      "name": "Port de la Bourdonnais",
+      "address": "Port de la Bourdonnais, 75007 Paris, France",
+      "coordinates": { "lat": 48.8606, "lng": 2.2961 }
+    },
+    "cost": 25,
+    "notes": "Evening cruise with views of illuminated monuments. Bring a camera!",
+    "bookingReference": "SR901234",
+    "status": "confirmed"
+  },
+  {
+    "id": "act6",
+    "tripId": "1",
+    "name": "Train to Rome",
+    "type": "transport",
+    "date": "2024-06-18",
+    "startTime": "14:30",
+    "duration": 690,
+    "location": {
+      "name": "Gare de Lyon",
+      "address": "Place Louis-Armand, 75012 Paris, France",
+      "coordinates": { "lat": 48.8447, "lng": 2.3739 }
+    },
+    "cost": 89,
+    "notes": "High-speed train to Rome. Overnight journey with sleeper cabin.",
+    "bookingReference": "TR567890",
+    "status": "confirmed"
+  },
+  {
+    "id": "act7",
+    "tripId": "1",
+    "name": "Colosseum Tour",
+    "type": "attraction",
+    "date": "2024-06-19",
+    "startTime": "09:30",
+    "duration": 120,
+    "location": {
+      "name": "Colosseum",
+      "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
+      "coordinates": { "lat": 41.8902, "lng": 12.4922 }
+    },
+    "cost": 32,
+    "notes": "Guided tour includes underground chambers and arena floor.",
+    "bookingReference": "CO123456",
+    "status": "confirmed"
+  },
+  {
+    "id": "act8",
+    "tripId": "1",
+    "name": "Vatican Museums",
+    "type": "attraction",
+    "date": "2024-06-20",
+    "startTime": "08:00",
+    "duration": 240,
+    "location": {
+      "name": "Vatican Museums",
+      "address": "00120 Vatican City",
+      "coordinates": { "lat": 41.9065, "lng": 12.4536 }
+    },
+    "cost": 25,
+    "notes": "Early morning entry to avoid crowds. Sistine Chapel included.",
+    "bookingReference": "VM789012",
+    "status": "confirmed"
+  },
+  {
+    "id": "act9",
+    "tripId": "2",
+    "name": "Arrival in Tokyo",
+    "type": "flight",
+    "date": "2024-09-10",
+    "startTime": "16:45",
+    "duration": 60,
+    "location": {
+      "name": "Haneda Airport",
+      "address": "3-3-2 Haneda-kuko, Ota-ku, Tokyo, Japan",
+      "coordinates": { "lat": 35.5494, "lng": 139.7798 }
+    },
+    "cost": 650,
+    "notes": "JAL Flight JL456. Airport express to Shibuya takes 30 minutes.",
+    "bookingReference": "JL789012",
+    "status": "confirmed"
+  },
+  {
+    "id": "act10",
+    "tripId": "2",
+    "name": "Tsukiji Fish Market",
+    "type": "attraction",
+    "date": "2024-09-11",
+    "startTime": "05:30",
+    "duration": 180,
+    "location": {
+      "name": "Tsukiji Outer Market",
+      "address": "5 Chome-2-1 Tsukiji, Chuo-ku, Tokyo, Japan",
+      "coordinates": { "lat": 35.6654, "lng": 139.7707 }
+    },
+    "cost": 0,
+    "notes": "Early morning visit for freshest sushi. Bring cash for vendors.",
+    "bookingReference": "",
+    "status": "planned"
+  },
+  {
+    "id": "act11",
+    "tripId": "2",
+    "name": "Senso-ji Temple",
+    "type": "attraction",
+    "date": "2024-09-11",
+    "startTime": "10:00",
+    "duration": 90,
+    "location": {
+      "name": "Senso-ji Temple",
+      "address": "2-3-1 Asakusa, Taito-ku, Tokyo, Japan",
+      "coordinates": { "lat": 35.7148, "lng": 139.7967 }
+    },
+    "cost": 0,
+    "notes": "Tokyo's oldest temple. Don't miss the traditional shopping street Nakamise-dori.",
+    "bookingReference": "",
+    "status": "planned"
+  },
+  {
+    "id": "act12",
+    "tripId": "2",
+    "name": "Robot Restaurant Show",
+    "type": "activity",
+    "date": "2024-09-12",
+    "startTime": "20:00",
+    "duration": 90,
+    "location": {
+      "name": "Robot Restaurant",
+      "address": "1-7-1 Kabukicho, Shinjuku-ku, Tokyo, Japan",
+      "coordinates": { "lat": 35.6960, "lng": 139.7036 }
+    },
+    "cost": 80,
+    "notes": "Unique Japanese entertainment experience. Very loud and colorful!",
+    "bookingReference": "RR345678",
+    "status": "confirmed"
+  },
+  {
+    "id": "act13",
+    "tripId": "3",
+    "name": "Arrival in Bali",
+    "type": "flight",
+    "date": "2024-12-05",
+    "startTime": "22:30",
+    "duration": 90,
+    "location": {
+      "name": "Ngurah Rai International Airport",
+      "address": "Jl. Raya Gusti Ngurah Rai, Tuban, Kuta, Bali, Indonesia",
+      "coordinates": { "lat": -8.7467, "lng": 115.1671 }
+    },
+    "cost": 420,
+    "notes": "Garuda Indonesia flight. Airport transfer to Ubud pre-arranged.",
+    "bookingReference": "GA901234",
+    "status": "confirmed"
+  },
+  {
+    "id": "act14",
+    "tripId": "3",
+    "name": "Tegallalang Rice Terraces",
+    "type": "attraction",
+    "date": "2024-12-06",
+    "startTime": "08:00",
+    "duration": 120,
+    "location": {
+      "name": "Tegallalang Rice Terraces",
+      "address": "Jalan Raya Tegallalang, Tegallalang, Gianyar, Bali, Indonesia",
+      "coordinates": { "lat": -8.4305, "lng": 115.2784 }
+    },
+    "cost": 5,
+    "notes": "Best time for photos is early morning. Bring comfortable walking shoes.",
+    "bookingReference": "",
+    "status": "planned"
+  },
+  {
+    "id": "act15",
+    "tripId": "3",
+    "name": "Balinese Cooking Class",
+    "type": "activity",
+    "date": "2024-12-07",
+    "startTime": "09:00",
+    "duration": 240,
+    "location": {
+      "name": "Paon Bali Cooking Class",
+      "address": "Jl. Raya Laplapan, Petulu, Ubud, Bali, Indonesia",
+      "coordinates": { "lat": -8.5069, "lng": 115.2625 }
+    },
+    "cost": 35,
+    "notes": "Includes market tour and lunch. Learn to make authentic nasi goreng and rendang.",
+    "bookingReference": "PB567890",
+    "status": "confirmed"
+  }
+]

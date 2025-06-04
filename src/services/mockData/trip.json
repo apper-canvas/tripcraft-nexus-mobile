@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "name": "European Adventure",
+    "startDate": "2024-06-15",
+    "endDate": "2024-06-25",
+    "destinations": ["paris", "rome", "barcelona"],
+    "collaborators": [
+      { "id": "user1", "name": "John Doe", "email": "john@example.com" },
+      { "id": "user2", "name": "Jane Smith", "email": "jane@example.com" }
+    ],
+    "budget": {
+      "total": 5000,
+      "currency": "USD",
+      "categories": {
+        "accommodation": 1500,
+        "food": 1200,
+        "transport": 800,
+        "activities": 1500
+      }
+    },
+    "coverImage": "https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=800",
+    "status": "planning",
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "2", 
+    "name": "Tokyo Discovery",
+    "startDate": "2024-09-10",
+    "endDate": "2024-09-20",
+    "destinations": ["tokyo", "kyoto", "osaka"],
+    "collaborators": [
+      { "id": "user1", "name": "John Doe", "email": "john@example.com" }
+    ],
+    "budget": {
+      "total": 4500,
+      "currency": "USD",
+      "categories": {
+        "accommodation": 1800,
+        "food": 1000,
+        "transport": 700,
+        "activities": 1000
+      }
+    },
+    "coverImage": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800",
+    "status": "planning",
+    "createdAt": "2024-02-20T14:30:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Bali Relaxation",
+    "startDate": "2024-12-05",
+    "endDate": "2024-12-15",
+    "destinations": ["ubud", "seminyak", "nusa-penida"],
+    "collaborators": [
+      { "id": "user1", "name": "John Doe", "email": "john@example.com" },
+      { "id": "user3", "name": "Mike Johnson", "email": "mike@example.com" }
+    ],
+    "budget": {
+      "total": 3500,
+      "currency": "USD",
+      "categories": {
+        "accommodation": 1200,
+        "food": 800,
+        "transport": 500,
+        "activities": 1000
+      }
+    },
+    "coverImage": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800",
+    "status": "draft",
+    "createdAt": "2024-03-10T09:15:00Z"
+  }
+]

@@ -1,0 +1,281 @@
+[
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "arrivalDate": "2024-06-15",
+    "departureDate": "2024-06-18",
+    "accommodation": {
+      "name": "Hotel Le Marais",
+      "address": "12 Rue des Archives, 75004 Paris, France",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "nights": 3,
+      "totalCost": 360
+    },
+    "transportation": {
+      "arrival": {
+        "type": "flight",
+        "details": "Air France AF123 from JFK",
+        "cost": 450
+      },
+      "departure": {
+        "type": "train",
+        "details": "High-speed train to Rome",
+        "cost": 89
+      }
+    },
+    "coordinates": { "lat": 48.8566, "lng": 2.3522 },
+    "timezone": "Europe/Paris",
+    "currency": "EUR",
+    "description": "The City of Light, famous for its art, fashion, gastronomy, and culture."
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "country": "Italy", 
+    "arrivalDate": "2024-06-19",
+    "departureDate": "2024-06-22",
+    "accommodation": {
+      "name": "Hotel Artemide",
+      "address": "Via Nazionale, 22, 00184 Roma RM, Italy",
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "nights": 3,
+      "totalCost": 420
+    },
+    "transportation": {
+      "arrival": {
+        "type": "train",
+        "details": "High-speed train from Paris",
+        "cost": 89
+      },
+      "departure": {
+        "type": "flight",
+        "details": "Alitalia AZ234 to Barcelona",
+        "cost": 120
+      }
+    },
+    "coordinates": { "lat": 41.9028, "lng": 12.4964 },
+    "timezone": "Europe/Rome",
+    "currency": "EUR",
+    "description": "The Eternal City, home to ancient ruins, Vatican City, and incredible Italian cuisine."
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain",
+    "arrivalDate": "2024-06-22",
+    "departureDate": "2024-06-25",
+    "accommodation": {
+      "name": "Hotel Casa Fuster",
+      "address": "Passeig de Gràcia, 132, 08008 Barcelona, Spain",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "nights": 3,
+      "totalCost": 450
+    },
+    "transportation": {
+      "arrival": {
+        "type": "flight",
+        "details": "Alitalia AZ234 from Rome",
+        "cost": 120
+      },
+      "departure": {
+        "type": "flight",
+        "details": "Iberia IB567 back to JFK",
+        "cost": 380
+      }
+    },
+    "coordinates": { "lat": 41.3851, "lng": 2.1734 },
+    "timezone": "Europe/Madrid", 
+    "currency": "EUR",
+    "description": "Vibrant Catalan capital known for Gaudí's architecture, beaches, and vibrant nightlife."
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "arrivalDate": "2024-09-10",
+    "departureDate": "2024-09-15",
+    "accommodation": {
+      "name": "Park Hyatt Tokyo",
+      "address": "3-7-1-2 Nishi Shinjuku, Shinjuku-ku, Tokyo, Japan",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "nights": 5,
+      "totalCost": 1200
+    },
+    "transportation": {
+      "arrival": {
+        "type": "flight",
+        "details": "JAL JL456 from LAX",
+        "cost": 650
+      },
+      "departure": {
+        "type": "train",
+        "details": "Shinkansen to Kyoto",
+        "cost": 45
+      }
+    },
+    "coordinates": { "lat": 35.6762, "lng": 139.6503 },
+    "timezone": "Asia/Tokyo",
+    "currency": "JPY",
+    "description": "Japan's bustling capital, blending ultramodern and traditional, from skyscrapers to historic temples."
+  },
+  {
+    "id": "kyoto",
+    "name": "Kyoto",
+    "country": "Japan",
+    "arrivalDate": "2024-09-15",
+    "departureDate": "2024-09-18",
+    "accommodation": {
+      "name": "The Ritz-Carlton Kyoto",
+      "address": "Kamogawa Nijo-Ohashi Hotori, Nakagyo-ku, Kyoto, Japan",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "nights": 3,
+      "totalCost": 900
+    },
+    "transportation": {
+      "arrival": {
+        "type": "train",
+        "details": "Shinkansen from Tokyo",
+        "cost": 45
+      },
+      "departure": {
+        "type": "train",
+        "details": "Express train to Osaka",
+        "cost": 25
+      }
+    },
+    "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+    "timezone": "Asia/Tokyo",
+    "currency": "JPY",
+    "description": "Former imperial capital famous for its temples, gardens, imperial palaces, and traditional wooden houses."
+  },
+  {
+    "id": "osaka",
+    "name": "Osaka",
+    "country": "Japan",
+    "arrivalDate": "2024-09-18",
+    "departureDate": "2024-09-20",
+    "accommodation": {
+      "name": "Conrad Osaka",
+      "address": "3-2-4 Nakanoshima, Kita-ku, Osaka, Japan",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "nights": 2,
+      "totalCost": 400
+    },
+    "transportation": {
+      "arrival": {
+        "type": "train",
+        "details": "Express train from Kyoto",
+        "cost": 25
+      },
+      "departure": {
+        "type": "flight",
+        "details": "ANA NH789 back to LAX",
+        "cost": 580
+      }
+    },
+    "coordinates": { "lat": 34.6937, "lng": 135.5023 },
+    "timezone": "Asia/Tokyo",
+    "currency": "JPY",
+    "description": "Japan's kitchen, famous for its food culture, street food, and vibrant nightlife."
+  },
+  {
+    "id": "ubud",
+    "name": "Ubud",
+    "country": "Indonesia",
+    "arrivalDate": "2024-12-05",
+    "departureDate": "2024-12-08",
+    "accommodation": {
+      "name": "COMO Shambhala Estate",
+      "address": "Banjar Begawan, Melinggih Kelod, Payangan, Gianyar, Bali, Indonesia",
+      "checkIn": "14:00",
+      "checkOut": "12:00",
+      "nights": 3,
+      "totalCost": 750
+    },
+    "transportation": {
+      "arrival": {
+        "type": "flight",
+        "details": "Garuda Indonesia GA901 from SIN",
+        "cost": 420
+      },
+      "departure": {
+        "type": "car",
+        "details": "Private transfer to Seminyak",
+        "cost": 35
+      }
+    },
+    "coordinates": { "lat": -8.5069, "lng": 115.2625 },
+    "timezone": "Asia/Makassar",
+    "currency": "IDR",
+    "description": "Bali's cultural heart, known for its rice terraces, yoga retreats, and traditional crafts."
+  },
+  {
+    "id": "seminyak",
+    "name": "Seminyak",
+    "country": "Indonesia",
+    "arrivalDate": "2024-12-08",
+    "departureDate": "2024-12-12",
+    "accommodation": {
+      "name": "The Legian Bali",
+      "address": "Jl. Kayu Aya, Seminyak Beach, Kuta, Bali, Indonesia",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "nights": 4,
+      "totalCost": 600
+    },
+    "transportation": {
+      "arrival": {
+        "type": "car",
+        "details": "Private transfer from Ubud",
+        "cost": 35
+      },
+      "departure": {
+        "type": "boat",
+        "details": "Fast boat to Nusa Penida",
+        "cost": 25
+      }
+    },
+    "coordinates": { "lat": -8.6905, "lng": 115.1526 },
+    "timezone": "Asia/Makassar",
+    "currency": "IDR",
+    "description": "Upscale beach resort area known for its sophisticated dining, shopping, and nightlife."
+  },
+  {
+    "id": "nusa-penida",
+    "name": "Nusa Penida",
+    "country": "Indonesia",
+    "arrivalDate": "2024-12-12",
+    "departureDate": "2024-12-15",
+    "accommodation": {
+      "name": "Adiwana Suweta",
+      "address": "Jl. Raya Suweta, Nusa Penida, Klungkung, Bali, Indonesia",
+      "checkIn": "14:00",
+      "checkOut": "11:00",
+      "nights": 3,
+      "totalCost": 180
+    },
+    "transportation": {
+      "arrival": {
+        "type": "boat",
+        "details": "Fast boat from Seminyak",
+        "cost": 25
+      },
+      "departure": {
+        "type": "flight",
+        "details": "Garuda Indonesia GA902 back to SIN",
+        "cost": 450
+      }
+    },
+    "coordinates": { "lat": -8.7204, "lng": 115.5444 },
+    "timezone": "Asia/Makassar",
+    "currency": "IDR",
+    "description": "Pristine island paradise with dramatic cliffs, crystal-clear waters, and untouched beaches."
+  }
+]
